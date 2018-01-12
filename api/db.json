@@ -1,0 +1,40 @@
+{
+  "token":
+    {"token": "this is jwt"},
+  "1.0.1": {
+    "namespace": "foo",
+    "name": "text",
+    "description": "Lorem ipsum dolor sit amet.\n",
+    "version": "1.0.1",
+    "format": "binary",
+    "habitat": {
+    "mode": "remote",
+    "package": "core/git/2.14.1",
+    "binary": "git"
+    },
+    "docker": {
+      "image": "node:1.2.3"
+    },
+    "binary": {
+      "file": "./foobar.sh"
+    }
+  },
+  "1.0.2": {
+    "namespace": "foo",
+    "name": "binary",
+    "description": "Lorem ipsum dolor sit amet.\n",
+    "version": "1.0.2",
+    "format": "binary",
+    "habitat": {
+    "mode": "remote",
+    "package": "core/git/2.14.1",
+    "binary": "git"
+    },
+    "docker": {
+      "image": "node:1.2.3"
+    },
+    "binary": {
+      "file": "./foobar.sh"
+    }
+  }
+}
