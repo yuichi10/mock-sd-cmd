@@ -9,3 +9,6 @@ npm install -g json-server
 ```
 
 ### Execute
+```
+json-server db.json -r router.json
+```
