@@ -13,8 +13,9 @@ If you want to change the output of sd-cmd you can change fake.go or shell.sh.
 
 ### Install
 ```
-$ go get github.com/yuichi10/mock_sd-cmd.go
-$ cd $GOPATH/src/github.com/yuichi10/mock_sd-cmd.go
+$ git clone https://github.com/yuichi10/mock_sd-cmd.git
+$ mv mock_sd-cmd $GOPATH/src/github.com/yuichi10/mock_sd-cmd
+$ cd $GOPATH/src/github.com/yuichi10/mock_sd-cmd
 $ go build -o output/fake fake.go
 ```
 
