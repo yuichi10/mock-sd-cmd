@@ -1,6 +1,6 @@
 {
   "/auth/token": "/token",
   "/auth/token?api_token=DcdjHW9u--dyFydVpVSaCaGSwj9VPlUFOExF8YQZWrY": "/token",
-  "/command/foo%2Ftext/1.0.1": "/1.0.1",
-  "/command/foo%2Fbinary/1.0.1": "/1.0.2"
+  "/commands/foo/text/1.0.1": "/1.0.1",
+  "/commands/foo/binary/1.0.2": "/1.0.2"
 }
