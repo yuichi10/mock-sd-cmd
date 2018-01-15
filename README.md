@@ -37,6 +37,7 @@ export SD_TOKEN=DcdjHW9u--dyFydVpVSaCaGSwj9VPlUFOExF8YQZWrY
 SD_ARTIFACTS_DIR=/opt/
 ```
 The log file will be created at `/opt/.sd/commands/...`
+
 The command file is downloaded at `/opt/sd/commands/...`
 
 ### Execute
