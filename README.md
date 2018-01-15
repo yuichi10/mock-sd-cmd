@@ -34,9 +34,10 @@ $ go build -o output/fake fake.go
 export SD_API_URL=http://localhost:3000/
 export SD_STORE_URL=http://localhost:8080/
 export SD_TOKEN=DcdjHW9u--dyFydVpVSaCaGSwj9VPlUFOExF8YQZWrY
-SD_ARTIFACTS_DIR=/opt/
+export SD_ARTIFACTS_DIR=/opt/
 ```
 The log file will be created at `/opt/.sd/commands/...`
+
 The command file is downloaded at `/opt/sd/commands/...`
 
 ### Execute
