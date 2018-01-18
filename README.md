@@ -15,6 +15,17 @@ $ sudo --preserve-env go run sd-cmd.go exec foo/text@1.0.1
 If you change api or store maybe you cannot use these commands.
 
 
+### Environment variables
+```
+export SD_API_URL=http://localhost:3000/
+export SD_STORE_URL=http://localhost:8080/
+export SD_TOKEN=DcdjHW9u--dyFydVpVSaCaGSwj9VPlUFOExF8YQZWrY
+export SD_ARTIFACTS_DIR=/opt/
+```
+The log file will be created at `/opt/.sd/commands/...`
+
+The command file is downloaded at `/opt/sd/commands/...`
+
 # Dummy Screwdriver Store API
 
 If you want to change the output of sd-cmd you can change fake.go or shell.sh.
@@ -28,17 +39,6 @@ $ mv mock_sd-cmd $GOPATH/src/github.com/yuichi10/mock_sd-cmd
 $ cd $GOPATH/src/github.com/yuichi10/mock_sd-cmd
 $ go build -o output/fake fake.go
 ```
-
-### Environment variables
-```
-export SD_API_URL=http://localhost:3000/
-export SD_STORE_URL=http://localhost:8080/
-export SD_TOKEN=DcdjHW9u--dyFydVpVSaCaGSwj9VPlUFOExF8YQZWrY
-export SD_ARTIFACTS_DIR=/opt/
-```
-The log file will be created at `/opt/.sd/commands/...`
-
-The command file is downloaded at `/opt/sd/commands/...`
 
 ### Execute
 ```
